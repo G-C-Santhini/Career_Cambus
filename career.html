@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Campus for Students</title>
+  <link rel="stylesheet" href="career.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 Career Campus</h1>
+    <p>Explore career options and resources for your future</p>
+
+    <div class="filter-group">
+      <label for="careerFilter">Select a Career Domain</label>
+      <select id="careerFilter">
+        <option value="all">All</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Design">Design</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="Business">Business</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="careerList" aria-live="polite">
+      <!-- Career cards will be injected here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Career Campus | Empowering students through knowledge 🌟</p>
+  </footer>
+
+  <script src="career.js" defer></script>
+</body>
+</html>
